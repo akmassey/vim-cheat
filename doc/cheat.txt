@@ -1,0 +1,75 @@
+
+*cheat.txt*	For Vim version 7.4	Last change: 2014 October 8
+*cheat*
+
+Aaron Massey's Vim Cheatsheet
+
+===============================================================================
+CONTENTS
+
+	1. Leader Mappings...................................|cheat-leader|
+	2. Normal Mode.......................................|cheat-normal|
+	3. Visual Mode.......................................|cheat-visual|
+	4. Insert Mode.......................................|cheat-insert|
+	5. Commands..........................................|cheat-commands|
+	6. Notes.............................................|cheat-notes|
+	7. Rebuilding this file..............................|cheat-rebuild|
+
+===============================================================================
+1. Leader Mappings                                     *cheat-leader*
+
+<Leader>w – execute texcount on the current LaTeX file.
+<Leader>u – toggle gundo
+<Leader>$ – strip trailing whitespace in the file
+<Leader>= – reformat the file using Vim
+<Leader>f – reformat the file or selection using `fmt`
+<Leader>d – convert DOS-style carriage returns to UNIX-style
+<Leader>3 – delete blank lines
+<Leader>4 – squeeze multiple new lines to a single new line
+<Leader>6 – convert single spaces after a sentence to double spaces
+<Leader>7 – reformat a markdown file with poppins
+<Leader>8 – toggle NERDTree
+<Leader>9 – toggle Tagbar
+<Leader>n – rename the file
+<Leader>. – open test alternative file
+<Leader>p – clear CtrlP cache
+<Leader><Enter> – run the test for this file (or the last test run)
+
+===============================================================================
+2. Normal Mode                                         *cheat-normal*
+
+  & – reapeat last substitution
+
+===============================================================================
+3. Visual Mode                                         *cheat-visual*
+
+  <C-j> – move visual block down
+  <C-k> – move visual block up
+
+===============================================================================
+4. Insert Mode                                         *cheat-insert*
+
+===============================================================================
+5. COMMANDS                                            *cheat-commands*
+
+:w!! – write a file as root from a non-root vim
+
+:Space2Tab – Convert spaces to tabs, only in indents.
+:Tab2Space – Convert tabs to spaces, only in indents.
+:RetabIndent – Execute Space2Tab if 'expandtab' is set, Tab2Space otherwise.
+
+===============================================================================
+6. NOTES                                               *cheat-notes*
+
+Probably need to add something here about adding and using snippets.
+
+This project was inspired by https://github.com/technosophos/vim-myhelp
+
+===============================================================================
+7. Rebuilding the tags                                 *cheat-rebuild*
+
+To rebuild the tags for this file, run this command:
+
+   :helpt /path/to/this/directory
+
+You may need to restart VIM to see the updated version.
