@@ -12,8 +12,9 @@ CONTENTS
 	3. Visual Mode.......................................|cheat-visual|
 	4. Insert Mode.......................................|cheat-insert|
 	5. Commands..........................................|cheat-commands|
-	6. Notes.............................................|cheat-notes|
-	7. Rebuilding this file..............................|cheat-rebuild|
+	6. Defaults..........................................|cheat-defaults|
+	7. Notes.............................................|cheat-notes|
+	8. Rebuilding this file..............................|cheat-rebuild|
 
 ===============================================================================
 1. Leader Mappings                                     *cheat-leader*
@@ -59,14 +60,24 @@ CONTENTS
 :RetabIndent – Execute Space2Tab if 'expandtab' is set, Tab2Space otherwise.
 
 ===============================================================================
-6. NOTES                                               *cheat-notes*
+6. DEFAULTS                                            *cheat-defaults*
+
+Here are a few default keybindings that I seem to regularly forget:
+
+Normal Mode:
+
+zM – close all folds in the document
+zR – open all folds in the document
+
+===============================================================================
+7. NOTES                                               *cheat-notes*
 
 Probably need to add something here about adding and using snippets.
 
 This project was inspired by https://github.com/technosophos/vim-myhelp
 
 ===============================================================================
-7. Rebuilding the tags                                 *cheat-rebuild*
+8. Rebuilding the tags                                 *cheat-rebuild*
 
 To rebuild the tags for this file, run this command:
 
