@@ -14,7 +14,8 @@ CONTENTS
 	5. Commands..........................................|cheat-commands|
 	6. Defaults..........................................|cheat-defaults|
 	7. Notes.............................................|cheat-notes|
-	8. Rebuilding this file..............................|cheat-rebuild|
+	8. Additional Documentation..........................|cheat-documentation|
+	9. Rebuilding this file..............................|cheat-rebuild|
 
 ===============================================================================
 1. Leader Mappings                                     *cheat-leader*
@@ -77,7 +78,25 @@ Probably need to add something here about adding and using snippets.
 This project was inspired by https://github.com/technosophos/vim-myhelp
 
 ===============================================================================
-8. Rebuilding the tags                                 *cheat-rebuild*
+8. Additional Documentation                            *cheat-documentation*
+
+There are a few other plaintext help documents available online that I've
+incorporated into this personal help system.
+
+You can find the vi Reference from Litmaath and Hu here:
+
+    http://www.ungerhu.com/jxh/vi.html
+
+Or you can find it in this help system as |vi-reference|.
+
+Another sort of help file or tutorial is the one from jeffw here:
+
+    http://www.jeffw.com/vi/vi_help.txt
+
+This can be found in this help system as |jeffw-help|.
+
+===============================================================================
+9. Rebuilding the tags                                 *cheat-rebuild*
 
 To rebuild the tags for this file, run this command:
 
